@@ -18,3 +18,14 @@
 3. uniq.
 
 Все функции эмулятора должны быть покрыты тестами, а для каждой из поддерживаемых команд необходимо написать 2 теста.
+
+# Старт
+Для запуска программы необходимо запустить файл main.py
+Запустится эмулятор Shell, который будет выполнять скрипт, лежащий в папке cripts (startup1.sh/startup2.sh)
+Дата и время последнего запуска эмулятора будет храниться в папке logs в формате xml
+
+# Тестирование startup1.sh (команда ls, cd, chown и uptime)
+![image](https://github.com/user-attachments/assets/b2e35948-6723-4d18-b3ab-81ee6303a576)
+
+# Тестирование startup2.sh (команда ls, cd, uniq и uptime)
+![image](https://github.com/user-attachments/assets/b83e3a6f-963f-4efa-b51b-3ead5a82fa01)
